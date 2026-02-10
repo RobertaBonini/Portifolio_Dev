@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  color: aliceblue;
+}
+
+body{
+  background-color: black;
 }
 nav{
   display: flex;
@@ -10,4 +16,67 @@ nav{
 }
 nav img{
   width:40px;
+}
+
+main {
+  text-align: center;
+  font-size: larger;
+}
+#about p:nth-child(1){
+  font-size: 50px;
+}
+span{
+  color: aquamarine;
+}
+section{
+  margin: 20px;
+display: grid;
+justify-items: center;
+}
+
+.sobre {
+  margin: 10px;
+  width: 500px; 
+}
+#compe div{
+  padding: 20px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#compe div p {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(240, 248, 255, 0.285);
+  border-radius: 80px;
+  font-size: 20px;
+}
+
+#compe img {
+  width: 40px;
+  margin: 10px;
+}
+
+#compe p:nth-child(1){
+ color: rgb(118, 109, 218);
+}
+
+#compe p:nth-child(2){
+  color: rgb(213, 146, 87);
+}
+
+#compe p:nth-child(3){
+  color: burlywood;
+}
+
+#compe p:nth-child(4){
+  color: rgb(250, 81, 81);
+}
+
+h2{
+  font-size: 50px;
 }
